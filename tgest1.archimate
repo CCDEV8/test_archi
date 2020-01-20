@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="79ca2e0f-9916-452c-9fbd-ca4dfcd60d8e" version="4.4.0">
+  <folder name="Strategy" id="4c8930ec-a58e-414d-9770-f254bf6340bb" type="strategy"/>
+  <folder name="Business" id="d77791b0-0655-49ca-bc93-f4aa9b6cf3e3" type="business">
+    <element xsi:type="archimate:BusinessObject" name="MARA" id="37315326-3a39-442a-b166-970e6008ea2b"/>
+    <element xsi:type="archimate:Contract" name="MARC" id="41f647fe-d31f-4a3d-9b15-e067fcd0c569"/>
+  </folder>
+  <folder name="Application" id="56deef81-e33d-4d39-886f-e426adda2fbb" type="application"/>
+  <folder name="Technology &amp; Physical" id="2b81d024-3940-4323-a3f4-d1590a861978" type="technology"/>
+  <folder name="Motivation" id="afa1d03f-0edd-4778-83f8-0067225dcbb7" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="be961d9f-57c6-400a-bbb6-af4cf115d1f8" type="implementation_migration"/>
+  <folder name="Other" id="95e76343-a95f-4ba6-849b-acd85f63188a" type="other"/>
+  <folder name="Relations" id="454d5a4f-1404-46c8-8155-24a5df11a5fc" type="relations"/>
+  <folder name="Views" id="c65ca234-8407-4433-aba5-9c05f115af0c" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="MD" id="7c129ebd-c6a0-4bb9-b09a-78928e5d58b4">
+      <child xsi:type="archimate:DiagramObject" id="66788d41-85bc-4abb-a002-d21d2c61b2eb" archimateElement="37315326-3a39-442a-b166-970e6008ea2b">
+        <bounds x="288" y="264" width="217" height="133"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="8083229b-b371-4889-8c6d-16524d2154f5" archimateElement="41f647fe-d31f-4a3d-9b15-e067fcd0c569">
+        <bounds x="696" y="312" width="181" height="85"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="SD deliveriy" id="00732ce5-67a8-45d5-9d57-698a14df361b"/>
+  </folder>
+</archimate:model>
